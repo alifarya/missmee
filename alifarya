@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Andika Sujanadi</title>
+
+    <style type="text/css">
+    
+      /* width */
+      ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #E4E4ED;
+        border-radius: 5px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #CDCDDA;
+        border-radius: 5px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #8A9CA5;
+      }
+      body{
+        overflow-x: hidden;
+      }
+      body:hover{
+        cursor: default;
+      }
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .cpr{
+        position: fixed;
+        display: block;
+        z-index: 10;
+        padding: 5px;
+        margin-top: calc(100vh - 45px);
+        margin-left: calc(100vw - 240px);
+        border-radius: 50px;
+        opacity: 50%;
